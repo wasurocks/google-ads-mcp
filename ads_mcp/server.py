@@ -50,7 +50,7 @@ def main():
   api.get_ads_client()  # Check Google Ads credentials
   print("mcp server starting...")
   mcp_server.run(
-      transport="streamable-http",
+      transport="stdio",
       show_banner=False,
   )  # Initialize and run the server
 
